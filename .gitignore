@@ -1,0 +1,98 @@
+# ==========================================
+# Dependencies & Package Managers
+# ==========================================
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# ==========================================
+# Next.js & Build Outputs
+# ==========================================
+/.next/
+/out/
+/build
+/dist
+/coverage
+*.tsbuildinfo
+next-env.d.ts
+
+# ==========================================
+# Environment Variables & Secrets (NEVER COMMIT)
+# ==========================================
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+
+# ==========================================
+# Local Database & Contact Messages
+# ==========================================
+/data/
+*.sqlite
+*.db
+
+# ==========================================
+# Logs & Debugging
+# ==========================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# ==========================================
+# IDE & Code Editor Configs
+# ==========================================
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+*.sublime-project
+
+# ==========================================
+# Vercel Deployment
+# ==========================================
+.vercel
+
+# ==========================================
+# C / C++ Compiled Binaries (Workspace Cleanup)
+# ==========================================
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# ==========================================
+# Python Bytecode (if Python scripts run)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+env/
